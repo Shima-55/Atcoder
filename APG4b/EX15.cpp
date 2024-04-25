@@ -52,6 +52,7 @@ int main() {
   int sum_A = sum(A);
   int sum_B = sum(B);
   int sum_C = sum(C);
+  cout << sum_A << endl;
 
   // プレゼントの予算を出力
   output(sum_A, sum_B, sum_C);
