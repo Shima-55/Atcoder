@@ -18,7 +18,7 @@ int main() {
     while(a[i] != i){
         int j = pos[i];
         swap(a[i],a[j]);
-        swap(pos[a[i]],pos[a[j]);
+        swap(pos[a[i]],pos[a[j]]);
         ans.emplace_back(i,j);
     }
 
